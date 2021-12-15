@@ -22,23 +22,13 @@ public class DeckOfCards {
 			}
 		}
 	}
-
-	/*
-	 * Show Decks created by calling createDeck
-	 */
-	public void showDeck() {
-		System.out.println("Show Decks:" + Arrays.asList(decksCard));
-		System.out.println();
-
-	}
-
 	/*
 	 * Main
 	 */
 	public static void main(String[] args) {
 		DeckOfCards cardsObj = new DeckOfCards();
+		System.out.println("Welcome to Deck Of Cards Game");
 		cardsObj.createDeck();
-		cardsObj.showDeck();
 	}
 
 }
